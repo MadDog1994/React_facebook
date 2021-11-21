@@ -7,7 +7,7 @@ const Post = ({ author, content, image, date }) => {
     return (
         <div className='wrapper'>
             <div className='header'>
-                <img className='icon' src={author.photo}></img>
+                <img className='icon' src={author.photo} alt="author-photo"/>
                 <div className='column'>
                     <div className='nickname'>
                         <p className='style'>{author.name}</p>
@@ -19,7 +19,7 @@ const Post = ({ author, content, image, date }) => {
                 </div>
             </div>
             <div >
-                <img className='content' src={image}></img>
+                <img className='content' src={image} alt="content"/>
             </div>
         </div>
     )
