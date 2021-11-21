@@ -1,0 +1,42 @@
+.wrapper{
+    background-color: #0d1a27;
+    width: 750px;
+    height: auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.icon{
+    border-radius: 50%;
+    margin: 15px 20px 0;
+    width: 70px;
+    height: 70px;
+}
+span{
+    margin: 23px 0 0 10px;
+    color: #667683
+}
+.header{
+    display: flex;
+    width: 100%;
+    height: 30%;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+}
+.nickname{
+    display: flex;
+    margin-bottom: -35px;
+}
+.content{
+    width: 600px;
+    border-radius: 20px;
+    margin: 10px 20px 20px 110px;
+}
+.style{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
